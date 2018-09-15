@@ -10,12 +10,11 @@ const pkg = require(path.join(__dirname, '../package.json'));
 
 program
     .version(pkg.version, '-v, --version')
-    .option('-c', 'cccc')
 
 program
     .command('init')
     .option('-r, --registry [url]', '默认是 https://registry.npmjs.org, 可以只用快手私服: https://npm.corp.kuaishou.com')
-    .description('acfun初始化脚手架工具')
+    .description('初始化脚手架工具')
     .action(options => {
         choice.init(options);
     });
