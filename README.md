@@ -24,7 +24,8 @@
 
 - 设置工具的远程配置，如果没有设置则走本地默认的配置文件
 
-``` accli config --set http://git.corp.kuaishou.com/acfun-frontend/accli-config/blob/master/index.js
+```
+    accli config --set http://git.corp.kuaishou.com/acfun-frontend/accli-config/blob/master/index.js
 ```
 
 ## 效果图
