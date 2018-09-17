@@ -32,8 +32,8 @@
 
 ### 配置文件格式
 配置文件支持js格式和json格式。
-    - js格式需要module.exports输出；
-    - json格式按照正常写即可；
+- js格式需要module.exports输出；
+- json格式按照正常写即可；
 
 ### 配置文件示例（默认）
 
