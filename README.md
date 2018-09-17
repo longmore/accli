@@ -6,7 +6,9 @@
 ## 使用
 
 - 全局安装`accli`，mac需要加sudo
-``` npm install -g accli ```
+```
+    npm install -g accli
+```
 
 - 此时输入` accli -v `查看版本
 
@@ -21,7 +23,9 @@
 ```
 
 - 设置工具的远程配置，如果没有设置则走本地默认的配置文件
-``` accli config --set http://git.corp.kuaishou.com/acfun-frontend/accli-config/blob/master/index.js ```
+
+``` accli config --set http://git.corp.kuaishou.com/acfun-frontend/accli-config/blob/master/index.js
+```
 
 ## 效果图
 <img src="./example/1.gif" style="display: inline-block; position: relative; width: 80%; height: auto;" />
