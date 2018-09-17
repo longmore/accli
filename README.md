@@ -15,14 +15,13 @@
 ```
     accli --help // 查看帮助。等同 accli -h
     accli config --get // 显示当前配置文件地址，如果为空则是本地
-    accli config --set http://git.corp.kuaishou.com/acfun-frontend/accli-config/blob/master/config/a.js // 设置配置文件地址
-
+    accli config --set http://xxx // 设置配置文件地址
     accli init // 初始化脚手架
 
 ```
 
 - 设置工具的远程配置，如果没有设置则走本地默认的配置文件
-``` accli ```
+``` accli config --set http://git.corp.kuaishou.com/acfun-frontend/accli-config/blob/master/index.js ```
 
 ## 效果图
 <img src="./example/1.gif" style="display: inline-block; position: relative; width: 80%; height: auto;" />
@@ -34,6 +33,9 @@
 配置文件支持js格式和json格式。
 - js格式需要module.exports输出；
 - json格式按照正常写即可；
+
+## 配置文件远程地址规则
+- 支持http和git协议
 
 ### 配置文件示例（默认）
 
