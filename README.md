@@ -28,7 +28,7 @@
     accli config --set http://git.corp.kuaishou.com/acfun-frontend/accli-config/blob/master/index.js
 ```
 
-## 效果图
+## 效果图(图片较大，耐心等候)
 <img src="./example/1.gif" style="display: inline-block; position: relative; width: 80%; height: auto;" />
 
 ## 配置文件
